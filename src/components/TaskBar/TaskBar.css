@@ -1,0 +1,13 @@
+.TaskBar{
+    flex:0.1;
+    background-image: linear-gradient(to bottom right, darkblue, darkred);
+    background-size: cover;
+}
+
+.languageSelection > option::inactive-selection{
+    background-color: midnightblue;
+}
+
+.languageSelection{
+    border-color: transparent;
+}

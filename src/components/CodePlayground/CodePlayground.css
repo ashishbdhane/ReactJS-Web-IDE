@@ -1,0 +1,37 @@
+.CodePlayground{
+    flex:0.6;
+    overflow: auto;
+}
+
+.editor{
+    border-radius: 0em;
+    border: .3em solid hsl(0, 0%, 33%);
+    box-shadow: 1px 1px 0.5em black inset;
+    margin: 0em 0;
+    overflow: auto;
+    padding: 1em;
+    font-size:1em;
+
+    direction: ltr;
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    text-align: left;
+    text-shadow: 0 -0.1em 0.2em;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+
+
+    caret-color: red;
+    background-color: transparent;
+    color: transparent;
+    z-index: 1;
+
+}
